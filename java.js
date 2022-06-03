@@ -102,7 +102,6 @@ document.addEventListener("click", e => {
     }
 }
 
-<<<<<<< HEAD
 let text = document.getElementById("js--text")
 
 let data = fetch("data.json")
@@ -132,7 +131,7 @@ let data2 = fetch("data.json")
   }).then(function (echtedata) {
     text2.innerText = echtedata.text3;
 })
-=======
+
 // let text = document.getElementById("js--text")
 
 // let data = fetch("data.json")
@@ -162,4 +161,3 @@ let data2 = fetch("data.json")
 //   }).then(function (echtedata) {
 //     text2.innerText = echtedata.text3;
 // })
->>>>>>> 09d6b25d76e18abab59194e501d852ed2cb6ce3a

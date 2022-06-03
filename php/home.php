@@ -16,14 +16,14 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
-  <link rel="stylesheet" href="css/home.css">
-  <script src="java.js" defer></script>
+  <link rel="stylesheet" href="../css/home.css">
+  <script src="../java.js" defer></script>
 </head>
 <header class="good">
   <nav>
     <ul>
       <li>
-        <img class="logo1" src="img/SlyStream.webp" alt="Dit is het logo van one website">
+        <img class="logo1" src="../img/SlyStream.webp" alt="Dit is het logo van one website">
       </li>
     </ul>
   </nav>
@@ -49,7 +49,7 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
 
             <article class="slider">
             <?php foreach ($slider1 as $row) : ?>
-              <img class="imgOP" src="img/<?php echo $row['img']?>" alt="De film poster van Central Intelligence">
+              <img class="imgOP" src="../img/<?php echo $row['img']?>" alt="De film poster van Central Intelligence">
               <?php endforeach; ?>
             
             </article>
@@ -75,7 +75,7 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
       </button>
       <div class="slider">
       <?php foreach ($slider2 as $row) : ?>
-              <img class="imgOP" src="img/<?php echo $row['img']?>" alt="De film poster van Central Intelligence">
+              <img class="imgOP" src="../img/<?php echo $row['img']?>" alt="Een film van de streaming site">
               <?php endforeach; ?>
       </div>
       <button class="handle right-handle">
@@ -96,7 +96,7 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
       </button>
       <div class="slider">
       <?php foreach ($slider3 as $row) : ?>
-              <img class="imgOP" src="img/<?php echo $row['img']?>" alt="De film poster van Central Intelligence">
+              <img class="imgOP" src="../img/<?php echo $row['img']?>" alt="Een film van de streaming site">
               <?php endforeach; ?>
       </div>
       <button class="handle right-handle">
@@ -117,7 +117,7 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
       </button>
       <div class="slider">
       <?php foreach ($slider4 as $row) : ?>
-              <img class="imgOP" src="img/<?php echo $row['img']?>" alt="De film poster van Central Intelligence">
+              <img class="imgOP" src="../img/<?php echo $row['img']?>" alt="Een film van de streaming site">
               <?php endforeach; ?>
       </div>
       <button class="handle right-handle">
