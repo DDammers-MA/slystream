@@ -1,6 +1,4 @@
 
-
-
 document.addEventListener("click", e => {
     let handle
     if (e.target.matches(".handle")) {
@@ -132,32 +130,3 @@ let data2 = fetch("data.json")
     text2.innerText = echtedata.text3;
 })
 
-// let text = document.getElementById("js--text")
-
-// let data = fetch("data.json")
-//   .then(function (binnengekomendata) {
-//     return binnengekomendata.json();
-
-//   }).then(function (echtedata) {
-//     text.innerText = echtedata.text1;
-//   })
-
-// let text1 = document.getElementById("js--text2")
-
-// let data1 = fetch("data.json")
-//   .then(function (binnengekomendata) {
-//     return binnengekomendata.json();
-
-//   }).then(function (echtedata) {
-//     text1.innerText = echtedata.text2;
-// })
-
-// let text2 = document.getElementById("js--text3")
-
-// let data2 = fetch("data.json")
-//   .then(function (binnengekomendata) {
-//     return binnengekomendata.json();
-
-//   }).then(function (echtedata) {
-//     text2.innerText = echtedata.text3;
-// })

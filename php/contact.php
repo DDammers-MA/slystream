@@ -18,17 +18,10 @@
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">Netherlands</option>
-      <option value="canada">Germany</option>
-      <option value="usa">USA</option>
-    </select>
-
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit" action="mailto:34034@ma-web.nl" method="POST" enctype="text/plain">
+    <input type="submit" value="Submit" action="mailto: 34034@ma-web.nl" method="POST" enctype="text/plain">
     
   </form>
 </div>

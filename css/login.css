@@ -20,7 +20,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .wrapper{
-    background-image: url(/img/backgroundSly.png);
+    background-image: url(../img/backgroundSly.png);
     height: 100vh;
     background-image: cover;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ font-family: Arial, Helvetica, sans-serif;
     z-index: 90;
     position: relative;
     max-width: 45rem;
-    height: 63rem;
+    height: 53rem;
     margin-left: 50%;
     background: rgba(0, 0, 0, 0.75);
     border-radius: 1rem;

@@ -9,8 +9,6 @@ html{
 }
 
 body{
- background: black;
-
  font-size: 2rem;
  font-family: sans-serif;
 }
@@ -19,7 +17,7 @@ main{
 }
 
 .wrapper{
-    background-image: url(/img/backgroundSly.png);
+    background-image: url(../img/backgroundSly.webp);
     height: 100vh;
     background-image: contain;
     background-repeat: no-repeat;
@@ -122,19 +120,17 @@ main{
     font-size: 1.6rem;
     padding: 1rem;
   
+  
 }
 .tablei{
     padding-left: 1.4rem;
+    
 }
 .tableEnd{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: end;
-
 }
-
-   
-
 
 .description{
     padding: 1.4rem;

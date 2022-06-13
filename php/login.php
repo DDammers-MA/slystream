@@ -27,7 +27,7 @@
                     </div>
                     <div class="input-wrap">
                         
-                       <button><a class="button" href="home.html">Sign in</a></button>
+                       <button><a class="button" href="home.php">Sign in</a></button>
                     </div>
                     <div class="support">
                         <div class="remember">
@@ -38,7 +38,8 @@
                             need help?
                         </div>
                     </div>
-                    
+
+          </article>
                     
 
                 </form>
