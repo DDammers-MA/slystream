@@ -145,3 +145,4 @@ actionSpeech = (speechText) => {
       // do nothing yet
   }
 }
+ 

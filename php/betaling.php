@@ -16,7 +16,7 @@
             <section class="standard">
                 <h2 class="edition">standard edition</h2>
                 <p class="description">prijs</p>
-                <p class="text" id="js--text"></p>
+                <p class="text">€6,99</p>
                 <p class="description">description</p>
                 <table>
                     <tr class="table">
@@ -32,11 +32,11 @@
 
                     <tr class="table">
                         <td class="tablei">streameble on</td>
-                        <td clas="tableEnd">mobile /pc/ tv /tablet/ console</td>
+                        <td clas="tableEnd">mobile/pc/tv/tablet/console</td>
                     </tr>
                     <tr class="table">
                         <td class="tablei">divices</td>
-                        <td clas="tableEnd">2</td>
+                        <td clas="tableEnd__numb">2</td>
                     </tr>
                     
 
@@ -54,7 +54,7 @@
             <section class="delux">
                 <h2 class="edition">deluxe edtion</h2>
                 <p class="description">prijs</p>
-                <p class="text" id="js--text2"></p>
+                <p class="text">€8,99 </p>
                 <p class="description">description</p>
                 <table>
                     <tr class="table">
@@ -69,11 +69,11 @@
 
                     <tr class="table">
                         <td class="tablei">streameble on</td>
-                        <td clas="tableEnd">mobile /pc/ tv / tablet/ console</td>
+                        <td clas="tableEnd">mobil/pc/tv/tablet/console</td>
                     </tr>
                     <tr class="table">
                         <td class="tablei">divices</td>
-                        <td clas="tableEnd">3</td>
+                        <td clas="tableEnd__numb">3</td>
                     </tr>
 
                 </table>
@@ -90,7 +90,7 @@
             <section class="premium">
                 <h2 class="edition">premium edition</h2>
                 <p class="description">prijs</p>
-                <p class="text" id="js--text3"></p>
+                <p class="text">€12,99 </p>
                 <p class="description">description</p>
                 <table>
                     <tr class="table">
@@ -105,11 +105,11 @@
 
                     <tr class="table">
                         <td class="tablei">streameble on</td>
-                        <td clas="tableEnd">mobile /pc/ tv / tablet/ console</td>
+                        <td clas="tableEnd">mobile/pc/tv/tablet/console</td>
                     </tr>
                     <tr class="table">
                         <td class="tablei">divices</td>
-                        <td clas="tableEnd">4</td>
+                        <td clas="tableEnd__numb">4</td>
                     </tr>
 
                 </table>

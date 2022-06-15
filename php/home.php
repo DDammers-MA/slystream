@@ -19,11 +19,14 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
   <link rel="stylesheet" href="../css/home.css">
   <script src="../java/java.js" defer></script>
   <script src="../java/filter.js" defer></script>
+  <script src="../java/Speech.js" defer></script>
 </head>
 <header class="good">
   <nav>
     <ul>
       <li>
+        <a href="login.php">aa</a>
+        <a href="betaling.php">sdf</a>
         <img class="logo1" src="../img/SlyStream.webp" alt="Dit is het logo van one website">
       </li>
     </ul>
@@ -57,6 +60,11 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
 
       </div>
     </section>
+
+    <h2>Make it Rain Speech to Text</h2>
+    <h4 id="message">Press the button below, and start speaking</h4>
+    <button onclick="startRecognition()">Speech to text</button>
+    <div id="result" class="hide"></div>
     <!--  -->
 
     <div class="row">
@@ -165,11 +173,12 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
 
     </section>
 
+    </main>
+    
 <footer class="footer">
 <p>slystream</p>
 </footer>
 
 
-</main>
-    </body>
+</body>
 </html>
