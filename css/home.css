@@ -10,34 +10,55 @@ html{
     --handle-size: 4rem;
     --img-gap: .35rem;
   }
+
   .good{
     height: 7rem;
     background: black;
     margin-bottom: 1rem; 
   }
-  .footer{
-    height: 7rem;
-    background: black;
-  }
-  .footer p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2rem;
-  }
+  
+nav{
+  width: 60vw;
+  height: 100%;
+  margin-left: 2rem;
+
+}
+
+nav> ul{
+  display: flex;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+nav> ul> li{
+  width: 100%;
+  height: 100%;
+  font-size: 2rem;
+   
+}
+
+nav> ul> li > a{
+  height: 100%;
+  width: 100%;
+  display: block;
+  text-align: center;
+  line-height: 6rem;
+  text-decoration: none;
+  color: white;
+}
+
 
   body {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
     background: #171010;
     color: white;
     font-family: sans-serif;
   }
 
-  main{
-    height: 100%;
-    width: 100%;
-  }
   .inputs{
     display: flex;
     align-items: center;
@@ -61,7 +82,6 @@ html{
     margin-right: 2rem;
     -webkit-appearance: none;
     appearance: none;
-    background: #eee;
     border-radius: 0.5rem;
     box-shadow: inset 0 0 0.5rem 0 rgba(0,0,0,0.2);
 }
@@ -78,9 +98,9 @@ html{
 
   .logo1{
     height: 5rem;
-    margin-left: 5rem;
     margin-top: 1rem;
     border-radius: 1rem;
+    left: 0%;
    
   }
 
@@ -88,6 +108,7 @@ html{
     display: flex;
     justify-content: center;
     overflow: hidden;
+    background: #171010;
   }
   
   .slider {
@@ -99,6 +120,7 @@ html{
     transform: translateX(calc(var(--slider-index) * -100%));
     transition: transform 250ms ease-in-out;
     list-style: none;
+    background: #171010;
   }
 
 
@@ -114,6 +136,7 @@ html{
     aspect-ratio: 16 / 9;
     padding: var(--img-gap);
     border-radius: 1.6rem;
+    
   }
   
 
@@ -141,6 +164,7 @@ html{
     color: black;
     line-height: 0;
     transition: background-color 150ms ease-in-out;
+    
   }
   
   .left-handle {
@@ -172,9 +196,9 @@ html{
     justify-content: space-between;
     padding: .5rem calc(var(--img-gap) * 2 + var(--handle-size));
     align-items: center;
+    background: #171010;
+   
   }
-
-  
   .title {
     font-size: 3.3rem;
     margin: 0;
@@ -194,6 +218,54 @@ html{
   
   .progress-item.active {
     background-color: rgba(255, 255, 255, .9);
+  }
+
+  .hide {
+    display: none;
+    background: #171010;
+
+  }
+  
+.footer{
+    height: 10rem;
+    bottom: 0;
+    background:  black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+  }
+
+  .result {
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 2rem;
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .fo {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+    background: #7FB5FF;
+    border: 1px solid  rgb(10, 161, 221);
+    color: #fff;
+    cursor: pointer;
+    outline: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
   }
 
   @media (max-width: 1000px) {

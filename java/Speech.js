@@ -53,6 +53,7 @@ actionSpeech = (speechText) => {
       break;
       case "log in":
         window.open("http://localhost/bo4/slystream/php/login.php", "_self");
-        break;
+      break;
+
   }
 }

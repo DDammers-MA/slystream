@@ -25,18 +25,17 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
   <nav>
     <ul>
       <li>
-        <a href="login.php">aa</a>
-        <a href="betaling.php">sdf</a>
-        <img class="logo1" src="../img/SlyStream.webp" alt="Dit is het logo van one website">
+        <img class="logo1" src="../img/SlyStream.webp" alt="This is the logo of one website">
       </li>
+      <li> <a href="contact.php">contact page</a></li>
+      <li> <a href="login.php">login</a></li>
+      <li> <a href="betaling.php">betaling</a></li>
     </ul>
   </nav>
 </header>
 
-
 <body>
 
-  <main>
     <!-- filter -->
     <section class="inputs">
       <div>
@@ -45,7 +44,7 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
       </div>
 
       <div>
-        <label for="checkbox-comedie" class="label">comedie</label>
+        <label for="checkbox-comedie" class="label">comedy</label>
         <input id="checkbox-comedie" type="checkbox" checked class="filter">
       </div>
 
@@ -61,10 +60,6 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
       </div>
     </section>
 
-    <h2>Make it Rain Speech to Text</h2>
-    <h4 id="message">Press the button below, and start speaking</h4>
-    <button onclick="startRecognition()">Speech to text</button>
-    <div id="result" class="hide"></div>
     <!--  -->
 
     <div class="row">
@@ -79,9 +74,9 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
         <ul class="slider">
           <?php foreach ($slider1 as $row) : ?>
             <li class="fil" data-category="<?php echo $row['categorie'] ?>">
-            <a href="video.php?id=<?php echo $row['id'] ?>">
-              <img class="imgOP" src="../img/<?php echo $row['img'] ?>" alt="De film poster van Central Intelligence">
-            </a>
+              <a href="video.php?id=<?php echo $row['id'] ?>">
+                <img class="imgOP" src="../img/<?php echo $row['img'] ?>" alt="This is a movie on our streaming site">
+              </a>
             </li>
           <?php endforeach; ?>
         </ul>
@@ -105,9 +100,9 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
         <ul class="slider">
           <?php foreach ($slider2 as $row) : ?>
             <li class="fil" data-category="<?php echo $row['categorie'] ?>">
-            <a href="video.php?id=<?php echo $row['id'] ?>">
-              <img class="imgOP" src="../img/<?php echo $row['img'] ?>" alt="De film poster van Central Intelligence">
-            </a>
+              <a href="video.php?id=<?php echo $row['id'] ?>">
+                <img class="imgOP" src="../img/<?php echo $row['img'] ?>" alt="This is a movie on our streaming site">
+              </a>
             </li>
           <?php endforeach; ?>
         </ul>
@@ -132,9 +127,9 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
         <ul class="slider">
           <?php foreach ($slider3 as $row) : ?>
             <li class="fil" data-category="<?php echo $row['categorie'] ?>">
-            <a href="video.php?id=<?php echo $row['id'] ?>">
-              <img class="imgOP" src="../img/<?php echo $row['img'] ?>" alt="De film poster van Central Intelligence">
-            </a>
+              <a href="video.php?id=<?php echo $row['id'] ?>">
+                <img class="imgOP" src="../img/<?php echo $row['img'] ?>" alt="This is a movie on our streaming site">
+              </a>
             </li>
           <?php endforeach; ?>
         </ul>
@@ -158,9 +153,9 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
         <ul class="slider">
           <?php foreach ($slider4 as $row) : ?>
             <li class="fil" data-category="<?php echo $row['categorie'] ?>">
-            <a href="video.php?id=<?php echo $row['id'] ?>">
-              <img class="imgOP" src="../img/<?php echo $row['img'] ?>" alt="De film poster van Central Intelligence">
-            </a>
+              <a href="video.php?id=<?php echo $row['id'] ?>">
+                <img class="imgOP" src="../img/<?php echo $row['img'] ?>" alt="This is a movie on our streaming site">
+              </a>
             </li>
           <?php endforeach; ?>
         </ul>
@@ -171,14 +166,13 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
     </div>
 
 
-    </section>
-
-    </main>
-    
-<footer class="footer">
-<p>slystream</p>
-</footer>
+    <footer class="footer">
+      <p>slystream speach to text </p>
+      <button class="fo" onclick="startRecognition()">Speech to text</button>
+      <div class="result" id="result" class="hide"></div>
+    </footer>
 
 
 </body>
+
 </html>

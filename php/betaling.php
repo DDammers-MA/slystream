@@ -9,33 +9,40 @@
     <script src="../java/java.js" defer></script>
     <title>Bundles</title>
 </head>
-<div class="wrapper">
 
+
+
+ 
+
+<div class="wrapper">
     <body>
+    <img class="logo1" src="../img/SlyStream.webp" alt="This is the logo from our website">
+
         <main>
+            
             <section class="standard">
-                <h2 class="edition">standard edition</h2>
-                <p class="description">prijs</p>
+                <h2 class="edition">Standard edition</h2>
+                <p class="description">Prijs</p>
                 <p class="text">€6,99</p>
-                <p class="description">description</p>
+                <p class="description">Description</p>
                 <table>
                     <tr class="table">
-                        <td class="tablei">video quality</td>
+                        <td class="tablei">Video quality</td>
                         <td class="tableEnd">good</td>
                      
                     </tr>
 
                     <tr class="table">
-                        <td class="tablei">resolution</td>
+                        <td class="tablei">Resolution</td>
                         <td class="tableEnd">480p</td>
                     </tr>
 
                     <tr class="table">
-                        <td class="tablei">streameble on</td>
+                        <td class="tablei">Streameble op</td>
                         <td clas="tableEnd">mobile/pc/tv/tablet/console</td>
                     </tr>
                     <tr class="table">
-                        <td class="tablei">divices</td>
+                        <td class="tablei">Divices</td>
                         <td clas="tableEnd__numb">2</td>
                     </tr>
                     
@@ -45,34 +52,34 @@
                 <div class="container">
                     <div class="center">
                     <a href="login.php">
-                      <button class="button">koop nu</button>
+                      <button class="button">Buy now</button>
                     </a>
                     </div>
                   </div>
             </section>
 
             <section class="delux">
-                <h2 class="edition">deluxe edtion</h2>
-                <p class="description">prijs</p>
+                <h2 class="edition">Deluxe edtion</h2>
+                <p class="description">Prijs</p>
                 <p class="text">€8,99 </p>
-                <p class="description">description</p>
+                <p class="description">Description</p>
                 <table>
                     <tr class="table">
-                        <td class="tablei">video quality</td>
+                        <td class="tablei">Video quality</td>
                         <td class="tableEnd">better</td>
                     </tr>
 
                     <tr class="table">
-                        <td class="tablei">resolution</td>
+                        <td class="tablei">Resolution</td>
                         <td class="tableEnd">1080pp</td>
                     </tr>
 
                     <tr class="table">
-                        <td class="tablei">streameble on</td>
+                        <td class="tablei">Streameble on</td>
                         <td clas="tableEnd">mobil/pc/tv/tablet/console</td>
                     </tr>
                     <tr class="table">
-                        <td class="tablei">divices</td>
+                        <td class="tablei">Divices</td>
                         <td clas="tableEnd__numb">3</td>
                     </tr>
 
@@ -80,7 +87,7 @@
                 <div class="container">
                     <div class="center">
                     <a href="login.php">
-                      <button class="button">koop nu</button>
+                      <button class="button">Buy now</button>
                     </a>
                     </div>
                   </div>
@@ -88,27 +95,27 @@
             </section>
 
             <section class="premium">
-                <h2 class="edition">premium edition</h2>
-                <p class="description">prijs</p>
+                <h2 class="edition">Premium edition</h2>
+                <p class="description">Prijs</p>
                 <p class="text">€12,99 </p>
-                <p class="description">description</p>
+                <p class="description">Description</p>
                 <table>
                     <tr class="table">
-                        <td class="tablei">video quality</td>
+                        <td class="tablei">Video quality</td>
                         <td class="tableEnd">best</td>
                     </tr>
 
                     <tr class="table">
-                        <td class="tablei">resolution</td>
+                        <td class="tablei">Resolution</td>
                         <td class="tableEnd">4k+HDR</td>
                     </tr>
 
                     <tr class="table">
-                        <td class="tablei">streameble on</td>
+                        <td class="tablei">Streameble on</td>
                         <td clas="tableEnd">mobile/pc/tv/tablet/console</td>
                     </tr>
                     <tr class="table">
-                        <td class="tablei">divices</td>
+                        <td class="tablei">Divices</td>
                         <td clas="tableEnd__numb">4</td>
                     </tr>
 
@@ -116,13 +123,14 @@
                 <div class="container">
                     <div class="center">
                         <a href="login.php">
-                      <button class="button">koop nu</button>
+                      <button class="button">Buy now</button>
                       </a>
                     </div>
                   </div>
             </section>
-</div>
+
 </main>
 </body>
+</div>
 
 </html>

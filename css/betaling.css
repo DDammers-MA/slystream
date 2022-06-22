@@ -11,20 +11,8 @@ html{
 body{
  font-size: 2rem;
  font-family: sans-serif;
- height: 100%;
- width: 100%;
-}
-main{
-    color: white;
-}
+ height: 100vh;
 
-.wrapper{
-    background-image: url(../img/backgroundSly.webp);
-    height: 100vh;
-    background-image: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    width: 100%;
 }
 main{
     display: flex;
@@ -33,7 +21,28 @@ main{
     height: 100vh;
     padding: 5rem;
     gap: 2rem;
+    padding-top: 0;
 }
+
+
+
+.logo1{
+    height: 5rem;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0;
+   
+  }
+.wrapper{
+    background-image: url(../img/backgroundSly.webp);
+    height: 100%;
+    background-image: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+}
+
 .videoQ{
     font-size: 1.6rem;
     padding-bottom: 1rem;
@@ -47,6 +56,7 @@ main{
     box-shadow: 0 0 1rem 0 black;
     border-radius: 1rem;
     transition: 0.2s tranform;
+  
     
 }
 .standard:hover{

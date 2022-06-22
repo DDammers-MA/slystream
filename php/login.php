@@ -8,10 +8,11 @@
     <title>Slystream login page</title>
 </head>
 <body>
+    <section>
     <div class="wrapper">
         <div class="header">
             <div class="logo">
-                <a href="#"> <img src="../img/SlyStream.webp" alt="Dit is het logo van one website"> </a>
+                <a href="betaling.php"> <img class="logo1" src="../img/SlyStream.webp" alt="This is the logo from our website"> </a>
             </div>
         </div>
 
@@ -32,19 +33,17 @@
                     <div class="support">
                         <div class="remember">
                             <span><input type="checkbox"></span>
-                            <span>remember me</span>
+                            <span>Remember me</span>
                         </div>
                         <div class="need-help">
-                            need help?
+                            Need help?
                         </div>
                     </div>
-
-          </article>
-                    
 
                 </form>
             </div>
         </div>
     </div>
+    </section>
 </body>
 </html>
