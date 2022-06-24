@@ -27,7 +27,6 @@
                         <input type="text" placeholder="Password">
                     </div>
                     <div class="input-wrap">
-                        
                        <button><a class="button" href="home.php">Sign in</a></button>
                     </div>
                     <div class="support">

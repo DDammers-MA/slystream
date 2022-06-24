@@ -59,19 +59,21 @@ color: white;
 
 body{
   height: 100vh;
-  width: 100vw;
   background: #171010;
   color: white;
   font-family: sans-serif;
+}
+section{
+  height: 100vh;
 }
 
 .form-error{
   color: #ffffff;
   font-weight: bold;
   font-size: 1.5rem;
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 1rem;
   background:  rgb(10, 161, 221);
-  border-radius: 1rem;
+  
 
 
 }
@@ -82,14 +84,14 @@ body{
   font-size: 2rem;
   padding-bottom: 2rem;
 }
-input[type=text], select, textarea {
+input[type=text], select,textarea {
   width: 100%;
   padding: 0.6rem;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 0.2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0rem;
   resize: vertical;
 }
 
@@ -117,11 +119,16 @@ input[type=submit]:hover {
   border-radius: 4px;
   cursor: pointer;
 }
+form{
+  height: 100%;
+}
 
 
 
 .container {
- 
+
+  flex-grow: 1;
+ margin-top: 2rem;
   border-radius: 5px;
   background-color: #171010;
   margin-left: 30rem ;
@@ -131,3 +138,111 @@ input[type=submit]:hover {
 
 }
 
+footer{
+  height: 9rem;
+  background: black;
+  padding-top: 0;
+}
+
+@media (max-width: 800px) {
+
+  body{
+    height: 100vh;
+    
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    margin-left: 30rem;
+    margin-top: 5rem;
+  
+  }
+  .good{
+   height: 6rem;
+  }
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10rem;
+}
+a{
+  font-size: 1.6rem;
+}
+  .logo1{
+   height: 4rem;
+    padding-left: 9rem;
+
+  }
+}
+
+@media (max-width: 700px) {
+
+  body{
+    height: 100vh;
+    
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    margin-left: 25rem;
+    margin-top: 5rem;
+  
+  }
+  .good{
+   height: 6rem;
+  }
+ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 8rem;
+}
+a{
+  font-size: 1.6rem;
+}
+  .logo1{
+   height: 4rem;
+    padding-left: 9rem;
+
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  body{
+    height: 100vh;
+    
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    margin-left: 9rem;
+    margin-top: 5rem;
+  
+  }
+  .good{
+   height: 6rem;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+  }
+a{
+  font-size: 1.6rem;
+}
+  .logo1{
+   height: 4rem;
+    padding-left: 9rem;
+
+  }
+}

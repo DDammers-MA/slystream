@@ -27,7 +27,7 @@ $slider4 = $connection->query('SELECT * FROM `movies` WHERE `slider` = 4');
       <li>
         <img class="logo1" src="../img/SlyStream.webp" alt="This is the logo of one website">
       </li>
-      <li> <a href="contact.php">contact page</a></li>
+      <li> <a href="contact.php">contact</a></li>
       <li> <a href="login.php">login</a></li>
       <li> <a href="betaling.php">betaling</a></li>
     </ul>

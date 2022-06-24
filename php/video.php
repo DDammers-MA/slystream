@@ -23,7 +23,7 @@ $video = $connection->query('SELECT * FROM `movies` WHERE `id` =' . $id);
         <img class="logo1" src="../img/SlyStream.webp" alt="This is the logo of one website">
         </a>
       </li>
-      <li> <a href="contact.php">contact page</a></li>
+      <li> <a href="contact.php">contact</a></li>
       <li> <a href="login.php">login</a></li>
       <li> <a href="betaling.php">betaling</a></li>
     </ul>
@@ -43,6 +43,10 @@ $video = $connection->query('SELECT * FROM `movies` WHERE `id` =' . $id);
     <p><?php echo $row['discription'] ?> </p>
     </section>
 <?php endforeach; ?>
+
+<footer class="footer">
+  <p>slystream</p>
+</footer>
 
 </main>
 </body>

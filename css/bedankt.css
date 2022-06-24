@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    height: 100vh;
+    font-family: sans-serif;
+    background: #171010;
+    color: white;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20rem;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}

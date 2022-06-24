@@ -109,3 +109,12 @@ border-radius: 0.5rem;
     padding-top: 1rem;
 
 }
+
+.footer{
+  height: 6rem;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+margin-top: 3rem;
+}

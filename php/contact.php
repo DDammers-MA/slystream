@@ -61,6 +61,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   <link rel="stylesheet" href="../css/contact.css">
 </head>
 
+
 <header class="good">
   <nav>
     <ul>
@@ -69,13 +70,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <img class="logo1" src="../img/SlyStream.webp" alt="This is the logo of one website">
         </a>
       </li>
-      <li> <a href="contact.php">contact page</a></li>
+      <li> <a href="contact.php">contact</a></li>
       <li> <a href="login.php">login</a></li>
       <li> <a href="betaling.php">betaling</a></li>
     </ul>
   </nav>
 </header>
-
+<body>
 
   <div class="container">
 
@@ -109,10 +110,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       <?php endif; ?>
 
       <button class="send" id="send" value="submit" enctype="text/plain" type="submit">Submit</button>
-
     </form>
+   
   </div>
-
+ 
 </body>
 
 </html>
