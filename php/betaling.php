@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/betaling.css">
-    <script src="../java/java.js" defer></script>
+    <script src="java/java.js" defer></script>
     <title>Bundles</title>
 </head>
 
